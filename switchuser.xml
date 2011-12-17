@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install version="1.5" type="plugin" group="system">
+	<name>System - Switch User</name>
+	<creationDate>May 2011</creationDate>
+	<author>Artd Webdesign</author>
+	<authorEmail>lu@artd.ch</authorEmail>
+	<authorUrl>www.artd.ch</authorUrl>
+	<copyright>Copyright (C) Artd Webdesign GmbH. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenseses/gpl-2.0.html GNU/GPL</license>
+	<version>1.0.1</version>
+	<description>PLG_SYSTEM_SWITCHUSER_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="switchuser">switchuser.php</filename>
+		<folder>switchuser</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_switchuser.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_system_switchuser.ini</language>
+	</languages>
+</install>
